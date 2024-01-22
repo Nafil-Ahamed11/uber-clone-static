@@ -1,0 +1,500 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+.container-fuid{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.login-2 {
+    display: none;
+}
+
+.dropdown:hover {
+    background-color: rgb(80, 72, 72);
+    border-radius: 30px;
+}
+
+.navbar-nav li a:hover {
+    background-color: rgb(80, 72, 72);
+    border-radius: 25px;
+}
+.dropdown-menu li a:hover{
+   background-color: white;
+
+}
+.dropdown-menu li a{
+    color: rgb(143, 135, 135);
+}
+.dropdown-menu li a:hover{
+    color: black;
+}
+.nav-en{
+    height: 30px;
+    width: 60px;
+    
+}
+.nav-products{
+    height: 40px;
+    width: 100px;
+}
+.nav-en:hover{
+    background-color: rgb(80, 72, 72);
+    border-radius: 7px;
+}
+.nav-products:hover{
+    background-color: rgb(80, 72, 72);
+    border-radius: 10px;
+}
+.login-1 a{
+    height: 30px;
+    width: 48px;
+}
+.login-1 a:hover{
+    background-color: rgb(80, 72, 72);
+    border-radius: 7px; 
+}
+
+.company{
+    color: #fff
+   }
+   .safety {
+    color: #fff
+   }
+   .help{
+    color: #fff
+   }
+   .nav-right{
+    color: #fff
+   }
+
+   /*  section-1   */
+   .bg-image-1{
+   background: url("./uber images/Rider_Home_bg_desktop2x\ \(1\).webp");
+   width: 100vw;
+   height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   }
+   .main-div{
+    width: 46%;
+    height:530px;
+    background-color: #fff;
+    
+    
+   }
+   .form-control:focus{
+    box-shadow: none;
+    border-color: #fff;
+   }
+   .form{
+    width: 80%;
+    margin-left: 10%;
+   }
+   
+   .btn-2{
+    font-weight: 500;
+   }
+   .btn-2:hover{
+      box-shadow: rgb(221, 221, 221);
+      border-color:  rgb(221, 221, 221);
+      background-color:  rgb(221, 221, 221) ;
+      transition: 0.5s;
+   }
+   .main-div-h1{
+    font-size: 50px;
+   }
+   
+   .ride-div{
+    border-bottom: 4px solid black;
+    width: 60px;
+    
+   }
+    .bg-img-2{
+    display: none;
+   }
+ /*  section-3   */
+   .bg-img-3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    
+   }
+   .bg-img-3 img{
+    width: 100%;
+    height: 70%;
+   }
+   .bg-img-3{
+    background-image: url("./uber images/HP-U4B-NYC-bkg (1).webp");
+    width: 100%;
+    height: 290px;
+    padding: 0;
+    
+   }
+
+   .sec-4-arrow-1{
+   transition: 1s;
+   margin-right: 30px;
+   }
+.sec-4-arrow-1 img{
+    width: 30px;
+   
+}
+.sec-4-arrow-1:hover{
+   
+    transform: translate(20px);
+     cursor: pointer;
+    }
+
+   .section-5{
+    margin-top: 10%;
+   }
+
+   .focused{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .focused-safety h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .focused-safety span{
+    border-bottom: 1px solid rgb(187, 186, 186);
+    transition: 1s;
+   }
+   .focused-safety span:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+   }
+   .safety-img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+   }
+   .cities-img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+   }
+   .section-6{
+    margin-top: 10%;
+   }
+   .section-6 h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .section-6 span{
+    border-bottom: 1px solid rgb(187, 186, 186);
+    transition: 1s;
+   }
+   .section-6 span:hover{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+   }
+
+   .section-7{
+    margin-top: 10%;
+   }
+   .top-h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 44px;
+   }
+   .sign-drive{
+    margin-top: 80px;
+   }
+   .sign-ride{
+    margin-top: 80px;
+   }
+
+   .section-7 h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+   }
+   .section-8 h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+   }
+   .sec-8-border{
+    border: 1px solid black;
+   }
+   
+   .sec-9-start h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .sec-9-small h4{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 30px;
+   }
+   
+   
+   .sec-9-icons div{
+   
+    color: #fff;
+    
+   }
+   .twitter{
+    margin-left: 80px;
+
+   }
+   .youtube{
+    margin-left: 80px;
+
+   } 
+   .linkedin{
+    margin-left: 80px;
+
+   } 
+   .instagram{
+    margin-left: 80px;
+    
+   }
+
+   .sec-9-2-icons div{
+    margin-left: 30px;
+    color: #fff;
+   }
+   .store-icons{
+    width: 300px;
+   }
+   .store-icons div{
+    flex: 1;
+   }
+   .last-1{
+    color: #AFAFAF;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+   }
+   .last-2{
+    color: #AFAFAF;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+   }
+   .last-2 p{
+    margin-left: 20px;
+   }
+   footer{
+    overflow-x: hidden;
+   }
+
+
+
+
+
+ @media(max-width:1199px){
+    .sec-9-2-icons div{
+       margin-top: 20px;
+       margin-left: 0;
+        color: #fff;
+       }
+   }
+@media(max-width:991px) {
+
+    .login-2 {
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .login-1 {
+        display: none;
+    }
+
+    .navbar{
+        position: absolute ;
+        width: 100%;
+        top: 0;
+        
+    }
+  
+
+    .navbar-collapse{
+        height: 100vh;
+
+        background-color: white;
+        overscroll-behavior: contain;
+        overflow-y: hidden;
+    }
+    .collapse{
+        margin-left: -2%;
+        margin-right: -5%;
+    }
+    .dropdown{
+        color: black;
+    }
+    .dropdown:hover {
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .nav-en:hover{
+        background-color: white
+      
+    }
+    .nav-products:hover{
+        background-color:white;
+        
+    }
+    .navbar-nav li a:hover {
+        background-color: white;
+     
+    }
+    .company{
+        color: rgb(0, 0, 0);
+       }
+       .safety {
+        color: black;
+        font-size: 30px;
+        font-weight: 700;
+
+       }
+       .help{
+        color: black;
+        font-size: 30px;
+        font-weight: 700;
+       }
+       .nav-right{
+        color: black;
+       }
+      
+      .dropdown{
+        font-size: 30px;
+        font-weight: 700;
+      }
+      /*
+      .collapse{
+        padding: 15px;
+        margin-left:-10px;
+        margin-right: -10px;
+        margin-bottom: -10px;  
+      }
+      */
+      .nav-products{
+        margin: 0px;
+      }
+      /*  section-1   */
+      .bg-image-1{
+        background-image: none;
+      }
+      .main-div{
+        width: 100%;
+        height: 80%;
+        margin-top: 6%;
+    
+      }
+      .main-div-h1{
+        font-size: 36px;
+      }
+     
+      .form{
+        width: 90%;
+        margin-left: 50px;
+        
+       }
+       .button{
+        margin: 50px;
+        margin-left: 30px;
+       }
+       .bg-img-2{
+        display: block;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        padding: 0;
+       }
+       .bg-img-2 img{
+        width: 100%;
+       }
+       .bg-image-1{
+        height: 0%;
+       }
+       .bg-img-3 img{
+        height: 80%;
+       }
+       .last-2 p{
+        margin-left: 0;
+       }
+    
+}
+@media(max-width:767px) {
+    .btn-1{
+       width: 100%;
+    }
+    .btn-2{
+        width: 100%;
+        margin-top: 30px;
+     }
+     .top-h2{
+        font-size: 32px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 40px;
+       }
+}
+
+@media(max-width:457px){
+    .twitter{
+        margin-left: 30px;
+    
+       }
+       .youtube{
+        margin-left: 30px;
+    
+       } 
+       .linkedin{
+        margin-left: 30px;
+    
+       } 
+       .instagram{
+        margin-left: 30px;
+        
+       }
+       .store-icons{
+        width: 200px;
+       }
+       .main-div{
+        width: 100%;
+        height: 80%;
+        margin-top: 10%;
+      }
+      .sec-5-c{
+        margin-left: 0%;
+      }
+}
+
+
+
+
+   
+
+
+
